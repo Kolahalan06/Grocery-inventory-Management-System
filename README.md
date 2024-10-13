@@ -12,7 +12,8 @@ I have developed this Mini Python-based application to help grocery store employ
 2. Navigate to the project directory:   
  cd Inventory_Management_System
 
-USAGE
+USAGE:
+
 To run the application, execute:
 
 python Inventory_Management_system.py
