@@ -29,5 +29,5 @@ To test the application:
 
 
 ## Requirements;
-Python 3.12(the version i used for this project)
+Python 3.12(the version i used for this project) and
 Matplotlib
