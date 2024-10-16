@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt  # Correct import statement
+import matplotlib.pyplot as plt  
 
 class Item:
     def __init__(self, item_id, name, category, unit_price, stock_quantity, stock_threshold):
@@ -111,7 +111,7 @@ class InventoryManagementSystem:
             print("3. Update Stock Quantity")
             print("4. List Items Below Minimum Stock Threshold")
             print("5. Generate Inventory Report")
-            print("6. Generate Stock Level Chart")  # New option for chart generation
+            print("6. Generate Stock Level Chart")  
             print("7. Exit")
 
             choice = input("Choose an option (1-7): ")
@@ -137,7 +137,7 @@ class InventoryManagementSystem:
             elif choice == '5':
                 self.inventory.generate_report()
             elif choice == '6':
-                self.inventory.generate_stock_level_chart()  # Call the new function to generate the chart
+                self.inventory.generate_stock_level_chart()  
             elif choice == '7':
                 print("Exiting the program.")
                 break
